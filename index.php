@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+
+<?php
+include "test.php";
+
+ ?>
+
 <html lang="de" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -11,25 +17,29 @@
     <div class="hero is-fullheight is-dark is-bold">
       <div class="container has-text-centered">
         <div class="content is-small">
-          Hier der Ort und das Datum
+          Das Wetter in <?php echo $bla ?> am <?php echo date("d.m.y") ?>: <br>
+          <p> Übrigens, morgen ist der <?php echo $morgenist ?> :-)  </p>
+          <p> Und übermorgen ist der <?php echo $uebermorgenist ?> :-)  </p>
         </div>
 
       <div class="rel state">
-        <img src="" alt="Wetter Icon" width="200" height="200">
+        <img src="img/<?php echo $weatherstate ?>" alt="Wetter Icon" width="200" height="200">
         <p>
           <span class="min-temp">
-            Hier die min. Temperatur
+            <?php echo $min_temp ?> °C
           </span>
 
           <span class="max-temp">
-            Hier die Max Temperatur
+            <?php echo $max_temp ?> °C
           </span>
         </p>
         </div>
 
         <div class="content is-large state">
           <p class="is-size-1 is-uppercase has-text-weight-bold">
-            Hier die Tagline
+            <?php status($abbr) ?> <br>
+
+
           </p>
         </div>
       </div>
