@@ -9,7 +9,7 @@ $weather = json_decode($weather, true);
 
 <?php
 // echo $weather[0]["woeid"];
-// print_r($weather);
+// print_r ($weather);
 
 // print_r ($weather);
 
@@ -33,10 +33,76 @@ $weatherstate = $weather["weather_state_abbr"]. ".svg";
 
 $morgen = strtotime("+1 day");
 $morgenist = date ("d.m.y", $morgen);
-$uebermorgen = strtotime ("+1 day");
+$uebermorgen = strtotime ("+2 day");
 $uebermorgenist = date ("d.m.y", $uebermorgen);
 
 $abbr = $weather["weather_state_abbr"];
+
+
+$weather_morgen=$ort[1];
+$min_temp_m = $weather_morgen["min_temp"];
+$min_temp_m = round($min_temp_m);
+
+$max_temp_m = $weather_morgen["max_temp"];
+$max_temp_m = round($max_temp_m);
+
+$weatherstate_m = $weather_morgen["weather_state_abbr"] . ".svg";
+$abbr_m = $weather_morgen["weather_state_abbr"];
+
+
+$weather_uebermorgen=$ort[2];
+$min_temp_um = $weather_uebermorgen["min_temp"];
+$min_temp_um = round($min_temp_um);
+
+$max_temp_um = $weather_uebermorgen["max_temp"];
+$max_temp_um = round($max_temp_um);
+
+$weatherstate_um = $weather_uebermorgen["weather_state_abbr"] . ".svg";
+$abbr_um = $weather_uebermorgen["weather_state_abbr"];
+
+
+$min_temp_m = round($min_temp_m);
+
+
+function status_m($abbr_m =""){
+  if ($abbr_m == "c") {
+    echo "Die Sonne lacht! Perfektes Eiswetter!";
+}
+  elseif ($abbr_m == "lc") {
+    echo "Warm genug für eine Kugel (oder zwei...)";
+
+}
+
+elseif ($abbr_m == "hr") {
+  echo "Volle Deckung! Komm' lieber zu uns in Warme!";
+}
+else {
+  echo "Brrr! Komm' doch auf einen Kaffee vorbei!";
+}
+
+}
+
+function status_um($abbr_um =""){
+  if ($abbr_um == "c") {
+    echo "Die Sonne lacht! Perfektes Eiswetter!";
+}
+  elseif ($abbr_um == "lc") {
+    echo "Warm genug für eine Kugel (oder zwei...)";
+
+}
+
+elseif ($abbr_um == "hr") {
+  echo "Volle Deckung! Komm' lieber zu uns in Warme!";
+}
+else {
+  echo "Brrr! Komm' doch auf einen Kaffee vorbei!";
+}
+
+}
+
+
+
+
 
 function status($abbr =""){
   if ($abbr == "c") {
@@ -53,9 +119,6 @@ elseif ($abbr == "hr") {
 else {
   echo "Brrr! Komm' doch auf einen Kaffee vorbei!";
 }
-
-
-
 
 }
 

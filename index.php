@@ -18,9 +18,7 @@ include "test.php";
       <div class="container has-text-centered">
         <div class="content is-small">
           Das Wetter in <?php echo $bla ?> am <?php echo date("d.m.y") ?>: <br>
-          <p> Übrigens, morgen ist der <?php echo $morgenist ?> :-)  </p>
-          <p> Und übermorgen ist der <?php echo $uebermorgenist ?> :-)  </p>
-        </div>
+                </div>
 
       <div class="rel state">
         <img src="img/<?php echo $weatherstate ?>" alt="Wetter Icon" width="200" height="200">
@@ -41,6 +39,20 @@ include "test.php";
 
 
           </p>
+        </div>
+        <div id="wetter_morgen">
+          <br><br><br><br>
+          <p> Morgen, am <u><?php echo $morgenist ?></u> wird es </p>
+          <p>zwischen <strong><?php echo $min_temp_m ?></strong> °C und <strong>
+          <?php echo $max_temp_m ?> </strong>°C.</p> <p> Das heißt: <?php status_m($abbr_m) ?></p>
+          <img src="img/<?php echo $weatherstate_m ?>" width="200" alt="">
+        </div>
+        <div id="wetter_morgen">
+          <br><br><br><br>
+          <p> Übermorgen, am <u><?php echo $uebermorgenist ?> </u>wird es </p>
+          <p>zwischen <strong><?php echo $min_temp_um ?></strong> °C und
+        <strong>  <?php echo $max_temp_um ?></strong> °C.</p> <p> Das heißt: <?php status_m($abbr_um) ?></p>
+          <img src="img/<?php echo $weatherstate_um ?>" width="200" alt="">
         </div>
       </div>
       </div>
