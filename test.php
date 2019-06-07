@@ -32,9 +32,9 @@ $weatherstate = $weather["weather_state_abbr"]. ".svg";
 // $datum = date ("d.m.y");
 
 $morgen = strtotime("+1 day");
-$morgenist = date ("d.m.y", $morgen);
+$morgenist = date ("d.m.20y", $morgen);
 $uebermorgen = strtotime ("+2 day");
-$uebermorgenist = date ("d.m.y", $uebermorgen);
+$uebermorgenist = date ("d.m.20y", $uebermorgen);
 
 $abbr = $weather["weather_state_abbr"];
 
@@ -77,7 +77,7 @@ elseif ($abbr_m == "hr") {
   echo "Volle Deckung! Komm' lieber zu uns in Warme!";
 }
 else {
-  echo "Brrr! Komm' doch auf einen Kaffee vorbei!";
+  echo "Ganz einfach: ist es warm, iss' ein Eis! Ist es kalt: trink' ein Käffchen ¯\_(ツ)_/¯";
 }
 
 }
@@ -95,7 +95,7 @@ elseif ($abbr_um == "hr") {
   echo "Volle Deckung! Komm' lieber zu uns in Warme!";
 }
 else {
-  echo "Brrr! Komm' doch auf einen Kaffee vorbei!";
+  echo "Ganz einfach: ist es warm, iss' ein Eis! Ist es kalt: trink' ein Käffchen ¯\_(ツ)_/¯";
 }
 
 }
@@ -117,7 +117,7 @@ elseif ($abbr == "hr") {
   echo "Volle Deckung! Komm' lieber zu uns in Warme!";
 }
 else {
-  echo "Brrr! Komm' doch auf einen Kaffee vorbei!";
+  echo "Ganz einfach: ist es warm, iss' ein Eis! Ist es kalt: trink' ein Käffchen ¯\_(ツ)_/¯";
 }
 
 }

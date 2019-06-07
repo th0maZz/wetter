@@ -16,8 +16,8 @@ include "test.php";
   <body>
     <div class="hero is-fullheight is-dark is-bold">
       <div class="container has-text-centered">
-        <div class="content is-small">
-          Das Wetter in <?php echo $bla ?> am <?php echo date("d.m.y") ?>: <br>
+        <div class="is-size-4">
+          Das Wetter in <?php echo $bla ?> heute, am <?php echo date("d.m.20y") ?>: <br>
                 </div>
 
       <div class="rel state">
@@ -33,21 +33,23 @@ include "test.php";
         </p>
         </div>
 
-        <div class="content is-large state">
-          <p class="is-size-1 is-uppercase has-text-weight-bold">
+        <div class="is-size-6">
+          <p class="is-size-6">
             <?php status($abbr) ?> <br>
 
 
           </p>
         </div>
-        <div id="wetter_morgen">
+        <div class="is-flex-tablet has-text-justified-widescreen-only ">
+
+        <div class="is-size-6">
           <br><br><br><br>
           <p> Morgen, am <u><?php echo $morgenist ?></u> wird es </p>
           <p>zwischen <strong><?php echo $min_temp_m ?></strong> °C und <strong>
           <?php echo $max_temp_m ?> </strong>°C.</p> <p> Das heißt: <?php status_m($abbr_m) ?></p>
           <img src="img/<?php echo $weatherstate_m ?>" width="200" alt="">
         </div>
-        <div id="wetter_morgen">
+        <div class="is-size-6">
           <br><br><br><br>
           <p> Übermorgen, am <u><?php echo $uebermorgenist ?> </u>wird es </p>
           <p>zwischen <strong><?php echo $min_temp_um ?></strong> °C und
