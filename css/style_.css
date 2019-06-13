@@ -221,768 +221,800 @@ table th {
   display: table; }
 
 .is-pulled-left {
-  float: left !important; }
+  float: left ; }
 
 .is-pulled-right {
-  float: right !important; }
+  float: right ; }
 
 .is-clipped {
-  overflow: hidden !important; }
+  overflow: hidden ; }
 
 .is-size-1 {
-  font-size: 3rem !important; }
+  font-size: 3rem ; }
 
 .is-size-2 {
-  font-size: 2.5rem !important; }
+  font-size: 2.5rem ; }
 
 .is-size-3 {
-  font-size: 2rem !important; }
+  font-size: 2rem ; }
 
 .is-size-4 {
-  font-size: 1.5rem !important; }
+  font-size: 1.5rem ; }
 
 .is-size-5 {
-  font-size: 1.25rem !important; }
+  font-size: 1.25rem ; }
 
-.is-size-6 {
-  font-size: 1rem !important;
-padding: 2rem; }
+.is-size-6 p {
+  font-size: 1rem ;
+padding: 4rem;
+border: 1px;}
 
-.is-size-7 {
-  font-size: 0.75rem !important; }
+.is-size-7  {
+  font-size: 0.75rem ; }
 
 @media screen and (max-width: 768px) {
   .is-size-1-mobile {
-    font-size: 3rem !important; }
+    font-size: 3rem ; }
   .is-size-2-mobile {
-    font-size: 2.5rem !important; }
+    font-size: 2.5rem ; }
   .is-size-3-mobile {
-    font-size: 2rem !important; }
+    font-size: 2rem ; }
   .is-size-4-mobile {
-    font-size: 1.5rem !important; }
+    font-size: 1.5rem ; }
   .is-size-5-mobile {
-    font-size: 1.25rem !important; }
+    font-size: 1.25rem ; }
   .is-size-6-mobile {
-    font-size: 1rem !important; }
+    font-size: 1rem ; }
   .is-size-7-mobile {
-    font-size: 0.75rem !important; } }
+    font-size: 0.75rem ; } }
 
 @media screen and (min-width: 769px), print {
   .is-size-1-tablet {
-    font-size: 3rem !important; }
+    font-size: 3rem ; }
   .is-size-2-tablet {
-    font-size: 2.5rem !important; }
+    font-size: 2.5rem ; }
   .is-size-3-tablet {
-    font-size: 2rem !important; }
+    font-size: 2rem ; }
   .is-size-4-tablet {
-    font-size: 1.5rem !important; }
+    font-size: 1.5rem ; }
   .is-size-5-tablet {
-    font-size: 1.25rem !important; }
+    font-size: 1.25rem ; }
   .is-size-6-tablet {
-    font-size: 1rem !important; }
+    font-size: 1rem ; }
   .is-size-7-tablet {
-    font-size: 0.75rem !important; } }
+    font-size: 0.75rem ; } }
 
 @media screen and (max-width: 1087px) {
   .is-size-1-touch {
-    font-size: 3rem !important; }
+    font-size: 3rem ; }
   .is-size-2-touch {
-    font-size: 2.5rem !important; }
+    font-size: 2.5rem ; }
   .is-size-3-touch {
-    font-size: 2rem !important; }
+    font-size: 2rem ; }
   .is-size-4-touch {
-    font-size: 1.5rem !important; }
+    font-size: 1.5rem ; }
   .is-size-5-touch {
-    font-size: 1.25rem !important; }
+    font-size: 1.25rem ; }
   .is-size-6-touch {
-    font-size: 1rem !important; }
+    font-size: 1rem ; }
   .is-size-7-touch {
-    font-size: 0.75rem !important; } }
+    font-size: 0.75rem ; } }
 
 @media screen and (min-width: 1088px) {
   .is-size-1-desktop {
-    font-size: 3rem !important; }
+    font-size: 3rem ; }
   .is-size-2-desktop {
-    font-size: 2.5rem !important; }
+    font-size: 2.5rem ; }
   .is-size-3-desktop {
-    font-size: 2rem !important; }
+    font-size: 2rem ; }
   .is-size-4-desktop {
-    font-size: 1.5rem !important; }
+    font-size: 1.5rem ; }
   .is-size-5-desktop {
-    font-size: 1.25rem !important; }
+    font-size: 1.25rem ; }
   .is-size-6-desktop {
-    font-size: 1rem !important; }
+    font-size: 1rem ; }
   .is-size-7-desktop {
-    font-size: 0.75rem !important; } }
+    font-size: 0.75rem ; } }
 
 @media screen and (min-width: 1280px) {
   .is-size-1-widescreen {
-    font-size: 3rem !important; }
+    font-size: 3rem ; }
   .is-size-2-widescreen {
-    font-size: 2.5rem !important; }
+    font-size: 2.5rem ; }
   .is-size-3-widescreen {
-    font-size: 2rem !important; }
+    font-size: 2rem ; }
   .is-size-4-widescreen {
-    font-size: 1.5rem !important; }
+    font-size: 1.5rem ; }
   .is-size-5-widescreen {
-    font-size: 1.25rem !important; }
+    font-size: 1.25rem ; }
   .is-size-6-widescreen {
-    font-size: 1rem !important; }
+    font-size: 1rem ; }
   .is-size-7-widescreen {
-    font-size: 0.75rem !important; } }
+    font-size: 0.75rem ; } }
 
 @media screen and (min-width: 1472px) {
   .is-size-1-fullhd {
-    font-size: 3rem !important; }
+    font-size: 3rem ; }
   .is-size-2-fullhd {
-    font-size: 2.5rem !important; }
+    font-size: 2.5rem ; }
   .is-size-3-fullhd {
-    font-size: 2rem !important; }
+    font-size: 2rem ; }
   .is-size-4-fullhd {
-    font-size: 1.5rem !important; }
+    font-size: 1.5rem ; }
   .is-size-5-fullhd {
-    font-size: 1.25rem !important; }
+    font-size: 1.25rem ; }
   .is-size-6-fullhd {
-    font-size: 1rem !important; }
+    font-size: 1rem ; }
   .is-size-7-fullhd {
-    font-size: 0.75rem !important; } }
+    font-size: 0.75rem ; } }
 
 .has-text-centered {
-  text-align: center !important; }
+  text-align: center ; }
 
 .has-text-justified {
-  text-align: justify !important; }
+  text-align: justify ; }
+
+#forecast {
+  display: flex;
+}
 
 .has-text-left {
-  text-align: left !important; }
+  text-align: left ; }
 
 .has-text-right {
-  text-align: right !important; }
+  text-align: right ; }
 
+@media screen and (min-width: 768px) {
+  .has-text-centered {
+    display: flex;
+  }
+}
 @media screen and (max-width: 768px) {
   .has-text-centered-mobile {
-    text-align: center !important; } }
+    text-align: center} }
 
 @media screen and (min-width: 769px), print {
   .has-text-centered-tablet {
-    text-align: center !important; } }
+    text-align: center ;
+    align-items: center; } }
 
 @media screen and (min-width: 769px) and (max-width: 1087px) {
   .has-text-centered-tablet-only {
-    text-align: center !important; } }
+    text-align: center ;
+    align-items: center;} }
 
 @media screen and (max-width: 1087px) {
   .has-text-centered-touch {
-    text-align: center !important; } }
+    text-align: center ; } }
 
 @media screen and (min-width: 1088px) {
   .has-text-centered-desktop {
-    text-align: center !important; } }
+    text-align: center ; } } */
 
 @media screen and (min-width: 1088px) and (max-width: 1279px) {
   .has-text-centered-desktop-only {
-    text-align: center !important; } }
+    text-align: center ; } }
 
 @media screen and (min-width: 1280px) {
   .has-text-centered-widescreen {
-    text-align: center !important; } }
+    text-align: center ; } }
 
 @media screen and (min-width: 1280px) and (max-width: 1471px) {
   .has-text-centered-widescreen-only {
-    text-align: center !important; } }
+    text-align: center ; } }
 
 @media screen and (min-width: 1472px) {
   .has-text-centered-fullhd {
-    text-align: center !important; } }
+    text-align: center ; } }
 
 @media screen and (max-width: 768px) {
   .has-text-justified-mobile {
-    text-align: justify !important; } }
+    text-align: justify ; } }
 
 @media screen and (min-width: 769px), print {
   .has-text-justified-tablet {
-    text-align: justify !important; } }
+    align-items: center; } }
 
 @media screen and (min-width: 769px) and (max-width: 1087px) {
   .has-text-justified-tablet-only {
-    text-align: justify !important; } }
+    align-items: center; } }
 
 @media screen and (max-width: 1087px) {
   .has-text-justified-touch {
-    text-align: justify !important; } }
+    text-align: justify ; } }
 
 @media screen and (min-width: 1088px) {
   .has-text-justified-desktop {
-    text-align: justify !important; } }
+    text-align: justify ; } }
 
 @media screen and (min-width: 1088px) and (max-width: 1279px) {
   .has-text-justified-desktop-only {
-    text-align: justify !important; } }
+    text-align: justify ; } }
 
 @media screen and (min-width: 1280px) {
   .has-text-justified-widescreen {
-    text-align: justify !important; } }
+    text-align: justify ; } }
 
 @media screen and (min-width: 1280px) and (max-width: 1471px) {
   .has-text-justified-widescreen-only {
-    text-align: justify !important;
-    justify-content: space-between;
-    width: 100%;} }
+    display: flex ;
+    align-items: center;
+    justify-content: center;} }
 
 @media screen and (min-width: 1472px) {
   .has-text-justified-fullhd {
-    text-align: justify !important; } }
+    text-align: justify ; } }
 
 @media screen and (max-width: 768px) {
   .has-text-left-mobile {
-    text-align: left !important; } }
+    text-align: left ; } }
 
 @media screen and (min-width: 769px), print {
   .has-text-left-tablet {
-    text-align: left !important; } }
+    align-items: center;} }
 
 @media screen and (min-width: 769px) and (max-width: 1087px) {
   .has-text-left-tablet-only {
-    text-align: left !important; } }
+    align-items: center; } }
 
 @media screen and (max-width: 1087px) {
   .has-text-left-touch {
-    text-align: left !important; } }
-
-@media screen and (min-width: 1088px) {
+    text-align: left ; } }
+ @media screen and (min-width: 1088px) {
   .has-text-left-desktop {
-    text-align: left !important; } }
+    text-align: center ; } }
 
-@media screen and (min-width: 1088px) and (max-width: 1279px) {
+ @media screen and (min-width: 1088px) and (max-width: 1279px) {
   .has-text-left-desktop-only {
-    text-align: left !important; } }
+    text-align: center ; } }
 
 @media screen and (min-width: 1280px) {
   .has-text-left-widescreen {
-    text-align: left !important; } }
+    text-align: left ; } }
 
 @media screen and (min-width: 1280px) and (max-width: 1471px) {
   .has-text-left-widescreen-only {
-    text-align: left !important; } }
+    text-align: left ; } }
 
 @media screen and (min-width: 1472px) {
   .has-text-left-fullhd {
-    text-align: left !important; } }
+    text-align: left ; } }
 
 @media screen and (max-width: 768px) {
   .has-text-right-mobile {
-    text-align: right !important; } }
+    text-align: right ; } }
 
 @media screen and (min-width: 769px), print {
   .has-text-right-tablet {
-    text-align: right !important; } }
+    text-align: right ; } }
 
 @media screen and (min-width: 769px) and (max-width: 1087px) {
   .has-text-right-tablet-only {
-    text-align: right !important; } }
+    text-align: right ; } }
 
 @media screen and (max-width: 1087px) {
   .has-text-right-touch {
-    text-align: right !important; } }
+    text-align: right ; } }
 
-@media screen and (min-width: 1088px) {
+ @media screen and (min-width: 1088px) {
   .has-text-right-desktop {
-    text-align: right !important; } }
+    text-align: right ; } }
 
 @media screen and (min-width: 1088px) and (max-width: 1279px) {
   .has-text-right-desktop-only {
-    text-align: right !important; } }
+    text-align: right ; } }
 
 @media screen and (min-width: 1280px) {
   .has-text-right-widescreen {
-    text-align: right !important; } }
+    text-align: right ; } }
 
 @media screen and (min-width: 1280px) and (max-width: 1471px) {
   .has-text-right-widescreen-only {
-    text-align: right !important; } }
+    text-align: right ; } }
 
 @media screen and (min-width: 1472px) {
   .has-text-right-fullhd {
-    text-align: right !important; } }
+    text-align: right ; } }
 
 .is-capitalized {
-  text-transform: capitalize !important; }
+  text-transform: capitalize ; }
 
 .is-lowercase {
-  text-transform: lowercase !important; }
+  text-transform: lowercase ; }
 
 .is-uppercase {
-  text-transform: uppercase !important; }
+  text-transform: uppercase ; }
 
 .is-italic {
-  font-style: italic !important; }
+  font-style: italic ; }
 
 .has-text-white {
-  color: white !important; }
+  color: white ; }
 
 a.has-text-white:hover, a.has-text-white:focus {
-  color: #e6e6e6 !important; }
+  color: #e6e6e6 ; }
 
 .has-background-white {
-  background-color: white !important; }
+  background-color: white ; }
 
 .has-text-black {
-  color: #0a0a0a !important; }
+  color: #0a0a0a ; }
 
 a.has-text-black:hover, a.has-text-black:focus {
-  color: black !important; }
+  color: black ; }
 
 .has-background-black {
-  background-color: #0a0a0a !important; }
+  background-color: #0a0a0a ; }
 
 .has-text-light {
-  color: whitesmoke !important; }
+  color: whitesmoke ; }
 
 a.has-text-light:hover, a.has-text-light:focus {
-  color: #dbdbdb !important; }
+  color: #dbdbdb ; }
 
 .has-background-light {
-  background-color: whitesmoke !important; }
+  background-color: whitesmoke ; }
 
 .has-text-dark {
-  color: #363636 !important; }
+  color: #363636 ; }
 
 a.has-text-dark:hover, a.has-text-dark:focus {
-  color: #1c1c1c !important; }
+  color: #1c1c1c ; }
 
 .has-background-dark {
-  background-color: #363636 !important; }
+  background-color: #363636 ; }
 
 .has-text-primary {
-  color: #00d1b2 !important; }
+  color: #00d1b2 ; }
 
 a.has-text-primary:hover, a.has-text-primary:focus {
-  color: #009e86 !important; }
+  color: #009e86 ; }
 
 .has-background-primary {
-  background-color: #00d1b2 !important; }
+  background-color: #00d1b2 ; }
 
 .has-text-link {
-  color: #3273dc !important; }
+  color: #3273dc ; }
 
 a.has-text-link:hover, a.has-text-link:focus {
-  color: #205bbc !important; }
+  color: #205bbc ; }
 
 .has-background-link {
-  background-color: #3273dc !important; }
+  background-color: #3273dc ; }
 
 .has-text-info {
-  color: #209cee !important; }
+  color: #209cee ; }
 
 a.has-text-info:hover, a.has-text-info:focus {
-  color: #0f81cc !important; }
+  color: #0f81cc ; }
 
 .has-background-info {
-  background-color: #209cee !important; }
+  background-color: #209cee ; }
 
 .has-text-success {
-  color: #23d160 !important; }
+  color: #23d160 ; }
 
 a.has-text-success:hover, a.has-text-success:focus {
-  color: #1ca64c !important; }
+  color: #1ca64c ; }
 
 .has-background-success {
-  background-color: #23d160 !important; }
+  background-color: #23d160 ; }
 
 .has-text-warning {
-  color: #ffdd57 !important; }
+  color: #ffdd57 ; }
 
 a.has-text-warning:hover, a.has-text-warning:focus {
-  color: #ffd324 !important; }
+  color: #ffd324 ; }
 
 .has-background-warning {
-  background-color: #ffdd57 !important; }
+  background-color: #ffdd57 ; }
 
 .has-text-danger {
-  color: #ff3860 !important; }
+  color: #ff3860 ; }
 
 a.has-text-danger:hover, a.has-text-danger:focus {
-  color: #ff0537 !important; }
+  color: #ff0537 ; }
 
 .has-background-danger {
-  background-color: #ff3860 !important; }
+  background-color: #ff3860 ; }
 
 .has-text-black-bis {
-  color: #121212 !important; }
+  color: #121212 ; }
 
 .has-background-black-bis {
-  background-color: #121212 !important; }
+  background-color: #121212 ; }
 
 .has-text-black-ter {
-  color: #242424 !important; }
+  color: #242424 ; }
 
 .has-background-black-ter {
-  background-color: #242424 !important; }
+  background-color: #242424 ; }
 
 .has-text-grey-darker {
-  color: #363636 !important; }
+  color: #363636 ; }
 
 .has-background-grey-darker {
-  background-color: #363636 !important; }
+  background-color: #363636 ; }
 
 .has-text-grey-dark {
-  color: #4a4a4a !important; }
+  color: #4a4a4a ; }
 
 .has-background-grey-dark {
-  background-color: #4a4a4a !important; }
+  background-color: #4a4a4a ; }
 
 .has-text-grey {
-  color: #7a7a7a !important; }
+  color: #7a7a7a ; }
 
 .has-background-grey {
-  background-color: #7a7a7a !important; }
+  background-color: #7a7a7a ; }
 
 .has-text-grey-light {
-  color: #b5b5b5 !important; }
+  color: #b5b5b5 ; }
 
 .has-background-grey-light {
-  background-color: #b5b5b5 !important; }
+  background-color: #b5b5b5 ; }
 
 .has-text-grey-lighter {
-  color: #dbdbdb !important; }
+  color: #dbdbdb ; }
 
 .has-background-grey-lighter {
-  background-color: #dbdbdb !important; }
+  background-color: #dbdbdb ; }
 
 .has-text-white-ter {
-  color: whitesmoke !important; }
+  color: whitesmoke ; }
 
 .has-background-white-ter {
-  background-color: whitesmoke !important; }
+  background-color: whitesmoke ; }
 
 .has-text-white-bis {
-  color: #fafafa !important; }
+  color: #fafafa ; }
 
 .has-background-white-bis {
-  background-color: #fafafa !important; }
+  background-color: #fafafa ; }
 
 .has-text-weight-light {
-  font-weight: 300 !important; }
+  font-weight: 300 ; }
 
 .has-text-weight-normal {
-  font-weight: 400 !important; }
+  font-weight: 400 ; }
 
 .has-text-weight-semibold {
-  font-weight: 600 !important; }
+  font-weight: 600 ; }
 
 .has-text-weight-bold {
-  font-weight: 700 !important; }
+  font-weight: 700 ; }
 
 .is-family-primary {
-  font-family: "Inter-UI", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Inter-UI", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif ; }
 
 .is-family-secondary {
-  font-family: "Inter-UI", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Inter-UI", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif ; }
 
 .is-family-sans-serif {
-  font-family: "Inter-UI", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important; }
+  font-family: "Inter-UI", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif ; }
 
 .is-family-monospace {
-  font-family: monospace !important; }
+  font-family: monospace ; }
 
 .is-family-code {
-  font-family: monospace !important; }
+  font-family: monospace ; }
 
 .is-block {
-  display: block !important; }
+  display: block ; }
 
 @media screen and (max-width: 768px) {
   .is-block-mobile {
-    display: block !important; } }
+    display: block ; } }
 
 @media screen and (min-width: 769px), print {
   .is-block-tablet {
-    display: block !important; } }
+    display: block ; } }
 
 @media screen and (min-width: 769px) and (max-width: 1087px) {
   .is-block-tablet-only {
-    display: block !important; } }
+    display: block ; } }
 
 @media screen and (max-width: 1087px) {
   .is-block-touch {
-    display: block !important; } }
+    display: block ; } }
 
-@media screen and (min-width: 1088px) {
+ @media screen and (min-width: 1088px) {
   .is-block-desktop {
-    display: block !important; } }
+    display: block ; } }
 
-@media screen and (min-width: 1088px) and (max-width: 1279px) {
+ @media screen and (min-width: 1088px) and (max-width: 1279px) {
   .is-block-desktop-only {
-    display: block !important; } }
+    display: flex; ; } }
 
 @media screen and (min-width: 1280px) {
   .is-block-widescreen {
-    display: block !important; } }
+    display: block ; } }
 
 @media screen and (min-width: 1280px) and (max-width: 1471px) {
   .is-block-widescreen-only {
-    display: block !important; } }
+    display: block ; } }
 
 @media screen and (min-width: 1472px) {
   .is-block-fullhd {
-    display: block !important; } }
+    display: block ; } }
 
 .is-flex {
-  display: flex !important; }
+  display: flex ; }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 920px) {
   .is-flex-mobile {
-    display: flex !important; } }
+     display: flex ;
+  flex-direction: row;}
+}
 
-@media screen and (min-width: 769px), print {
+@media (min-width: 920px) and (max-width: 2000px) {
   .is-flex-tablet {
-    display: flex !important;
-    justify-content: space-between; } }
+    display: flex;
+    text-align: center;
+    } }
 
-@media screen and (min-width: 769px) and (max-width: 1087px) {
+  @media screen and (min-width: 920px) {
+    .is-size-6 {
+    padding: 1rem; }
+   }
+
+ @media screen and (min-width: 769px) and (max-width: 1087px) {
   .is-flex-tablet-only {
-    display: flex !important; } }
+    display: flex ; screen and (min-width: 769px), print
+
+  }
 
 @media screen and (max-width: 1087px) {
   .is-flex-touch {
-    display: flex !important; } }
+    display: flex ;
+    justify-content: center; } }
 
 @media screen and (min-width: 1088px) {
   .is-flex-desktop {
-    display: flex !important; } }
+    display: flex ;
+    justify-content: center; } }
 
 @media screen and (min-width: 1088px) and (max-width: 1279px) {
   .is-flex-desktop-only {
-    display: flex !important; } }
+    display: flex ;
+    justify-content: center; } }
 
 @media screen and (min-width: 1280px) {
   .is-flex-widescreen {
-    display: flex !important; } }
+    display: flex ;
+    justify-content: center; } }
 
 @media screen and (min-width: 1280px) and (max-width: 1471px) {
   .is-flex-widescreen-only {
-    display: flex !important; } }
+    display: flex ;
+    justify-content: center;} }
 
 @media screen and (min-width: 1472px) {
   .is-flex-fullhd {
-    display: flex !important; } }
+    display: flex ;
+    justify-content: center; } }
 
 .is-inline {
-  display: inline !important; }
+  display: inline ; }
 
 @media screen and (max-width: 768px) {
   .is-inline-mobile {
-    display: inline !important; } }
+    display: inline ; } }
 
 @media screen and (min-width: 769px), print {
   .is-inline-tablet {
-    display: inline !important; } }
+    display: inline ; } }
 
 @media screen and (min-width: 769px) and (max-width: 1087px) {
   .is-inline-tablet-only {
-    display: inline !important; } }
+    display: inline ; } }
 
 @media screen and (max-width: 1087px) {
   .is-inline-touch {
-    display: inline !important; } }
+    display: inline ; } }
 
 @media screen and (min-width: 1088px) {
   .is-inline-desktop {
-    display: inline !important; } }
+    display: inline ; } }
 
 @media screen and (min-width: 1088px) and (max-width: 1279px) {
   .is-inline-desktop-only {
-    display: inline !important; } }
+    display: inline ; } }
 
 @media screen and (min-width: 1280px) {
   .is-inline-widescreen {
-    display: inline !important; } }
+    display: inline ; } }
 
 @media screen and (min-width: 1280px) and (max-width: 1471px) {
   .is-inline-widescreen-only {
-    display: inline !important; } }
+    display: inline ; } }
 
 @media screen and (min-width: 1472px) {
   .is-inline-fullhd {
-    display: inline !important; } }
+    display: inline ; } }
 
 .is-inline-block {
-  display: inline-block !important; }
+  display: inline-block ; }
 
 @media screen and (max-width: 768px) {
   .is-inline-block-mobile {
-    display: inline-block !important; } }
+    display: inline-block ; } }
 
 @media screen and (min-width: 769px), print {
   .is-inline-block-tablet {
-    display: inline-block !important; } }
+    display: inline-block ; } }
 
 @media screen and (min-width: 769px) and (max-width: 1087px) {
   .is-inline-block-tablet-only {
-    display: inline-block !important; } }
+    display: inline-block ; } }
 
 @media screen and (max-width: 1087px) {
   .is-inline-block-touch {
-    display: inline-block !important; } }
+    display: inline-block ; } }
 
 @media screen and (min-width: 1088px) {
   .is-inline-block-desktop {
-    display: inline-block !important; } }
+    display: inline-block ; } }
 
 @media screen and (min-width: 1088px) and (max-width: 1279px) {
   .is-inline-block-desktop-only {
-    display: inline-block !important; } }
+    display: inline-block ; } }
 
 @media screen and (min-width: 1280px) {
   .is-inline-block-widescreen {
-    display: inline-block !important; } }
+    display: inline-block ; } }
 
 @media screen and (min-width: 1280px) and (max-width: 1471px) {
   .is-inline-block-widescreen-only {
-    display: inline-block !important; } }
+    display: inline-block ; } }
 
 @media screen and (min-width: 1472px) {
   .is-inline-block-fullhd {
-    display: inline-block !important; } }
+    display: inline-block ; } }
 
 .is-inline-flex {
-  display: inline-flex !important; }
+  display: inline-flex ; }
 
 @media screen and (max-width: 768px) {
   .is-inline-flex-mobile {
-    display: inline-flex !important; } }
+    display: inline-flex ; } }
 
 @media screen and (min-width: 769px), print {
   .is-inline-flex-tablet {
-    display: inline-flex !important; } }
+    display: inline-flex ; } }
 
 @media screen and (min-width: 769px) and (max-width: 1087px) {
   .is-inline-flex-tablet-only {
-    display: inline-flex !important; } }
+    display: inline-flex ; } }
 
 @media screen and (max-width: 1087px) {
   .is-inline-flex-touch {
-    display: inline-flex !important; } }
+    display: inline-flex ; } }
 
 @media screen and (min-width: 1088px) {
   .is-inline-flex-desktop {
-    display: inline-flex !important; } }
+    display: inline-flex ; } }
 
 @media screen and (min-width: 1088px) and (max-width: 1279px) {
   .is-inline-flex-desktop-only {
-    display: inline-flex !important; } }
+    display: inline-flex ; } }
 
 @media screen and (min-width: 1280px) {
   .is-inline-flex-widescreen {
-    display: inline-flex !important; } }
+    display: inline-flex ; } }
 
 @media screen and (min-width: 1280px) and (max-width: 1471px) {
   .is-inline-flex-widescreen-only {
-    display: inline-flex !important; } }
+    display: inline-flex ; } }
 
 @media screen and (min-width: 1472px) {
   .is-inline-flex-fullhd {
-    display: inline-flex !important; } }
+    display: inline-flex ; } }
 
 .is-hidden {
-  display: none !important; }
+  display: none ; }
 
 .is-sr-only {
-  border: none !important;
-  clip: rect(0, 0, 0, 0) !important;
-  height: 0.01em !important;
-  overflow: hidden !important;
-  padding: 0 !important;
-  position: absolute !important;
-  white-space: nowrap !important;
-  width: 0.01em !important; }
+  border: none ;
+  clip: rect(0, 0, 0, 0) ;
+  height: 0.01em ;
+  overflow: hidden ;
+  padding: 0 ;
+  position: absolute ;
+  white-space: nowrap ;
+  width: 0.01em ; }
 
 @media screen and (max-width: 768px) {
   .is-hidden-mobile {
-    display: none !important; } }
+    display: none ; } }
 
 @media screen and (min-width: 769px), print {
   .is-hidden-tablet {
-    display: none !important; } }
+    display: none ; } }
 
 @media screen and (min-width: 769px) and (max-width: 1087px) {
   .is-hidden-tablet-only {
-    display: none !important; } }
+    display: none ; } }
 
 @media screen and (max-width: 1087px) {
   .is-hidden-touch {
-    display: none !important; } }
+    display: none ; } }
 
 @media screen and (min-width: 1088px) {
   .is-hidden-desktop {
-    display: none !important; } }
+    display: none ; } }
 
 @media screen and (min-width: 1088px) and (max-width: 1279px) {
   .is-hidden-desktop-only {
-    display: none !important; } }
+    display: none ; } }
 
 @media screen and (min-width: 1280px) {
   .is-hidden-widescreen {
-    display: none !important; } }
+    display: none ; } }
 
 @media screen and (min-width: 1280px) and (max-width: 1471px) {
   .is-hidden-widescreen-only {
-    display: none !important; } }
+    display: none ; } }
 
 @media screen and (min-width: 1472px) {
   .is-hidden-fullhd {
-    display: none !important; } }
+    display: none ; } }
 
 .is-invisible {
-  visibility: hidden !important; }
+  visibility: hidden ; }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .is-invisible-mobile {
-    visibility: hidden !important; } }
+    visibility: hidden ; }
+    .forecast {
+      display: flex;
+      flex-direction: row;
+    }
+  }
 
 @media screen and (min-width: 769px), print {
   .is-invisible-tablet {
-    visibility: hidden !important; } }
+    visibility: hidden ; } }
 
 @media screen and (min-width: 769px) and (max-width: 1087px) {
   .is-invisible-tablet-only {
-    visibility: hidden !important; } }
+    visibility: hidden ; } }
 
 @media screen and (max-width: 1087px) {
   .is-invisible-touch {
-    visibility: hidden !important; } }
+    visibility: hidden ; } }
 
 @media screen and (min-width: 1088px) {
   .is-invisible-desktop {
-    visibility: hidden !important; } }
+    visibility: hidden ; } }
 
 @media screen and (min-width: 1088px) and (max-width: 1279px) {
   .is-invisible-desktop-only {
-    visibility: hidden !important; } }
+    visibility: hidden ; } }
 
 @media screen and (min-width: 1280px) {
   .is-invisible-widescreen {
-    visibility: hidden !important; } }
+    visibility: hidden ; } }
 
 @media screen and (min-width: 1280px) and (max-width: 1471px) {
   .is-invisible-widescreen-only {
-    visibility: hidden !important; } }
+    visibility: hidden ; } }
 
 @media screen and (min-width: 1472px) {
   .is-invisible-fullhd {
-    visibility: hidden !important; } }
+    visibility: hidden ; } }
 
 .is-marginless {
-  margin: 0 !important; }
+  margin: 0 ; }
 
 .is-paddingless {
-  padding: 0 !important; }
+  padding: 0 ; }
 
 .is-radiusless {
-  border-radius: 0 !important; }
+  border-radius: 0 ; }
 
 .is-shadowless {
-  box-shadow: none !important; }
+  box-shadow: none ; }
 
 .container {
   margin: 0 auto;
@@ -1012,6 +1044,9 @@ a.has-text-danger:hover, a.has-text-danger:focus {
     .container {
       max-width: 1344px;
       width: 1344px; } }
+  @media screen and (min-width: 920px) {
+    .container { display: flex
+  } } */
 
 .title,
 .subtitle {
@@ -1030,6 +1065,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   .title .tag,
   .subtitle .tag {
     vertical-align: middle; }
+
 
 .title {
   color: #363636;
@@ -1151,7 +1187,8 @@ a.has-text-danger:hover, a.has-text-danger:focus {
         color: white; }
     @media screen and (max-width: 1087px) {
       .hero.is-black .navbar-menu {
-        background-color: #0a0a0a; } }
+        background-color: #0a0a0a;
+        align-items: center;} }
     .hero.is-black .navbar-item,
     .hero.is-black .navbar-link {
       color: rgba(255, 255, 255, 0.7); }
@@ -1593,7 +1630,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   flex-shrink: 0;
   padding: 3rem 1.5rem; }
 
-.section {
+ .section {
   padding: 3rem 1.5rem; }
   @media screen and (min-width: 1088px) {
     .section.is-medium {
@@ -1647,3 +1684,5 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   display: flex;
   align-items: flex-end;
   justify-content: center; }
+
+}
